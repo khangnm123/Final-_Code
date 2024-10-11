@@ -29,6 +29,7 @@
 }
 .container .nav_bottom {
   background-color: #000000;
+  position: relative;
 }
 .container .ul_list {
   list-style-type: none;
@@ -973,7 +974,7 @@ ion-icon {
 .search {
   position: absolute;
   left: 0;
-  bottom: -39px;
+ bottom: -50px;
   width: 100%;
   padding: 5px 5px;
   background: white;
@@ -1081,6 +1082,10 @@ ion-icon {
 }
 .card_wrapper .center_flex .row .left {
   padding-right: 30px;
+}
+.card_wrapper .center_flex h2{
+  font-size: 20px;
+  color: #000000;
 }
 .card_wrapper .center_flex .row .left .main_image {
   width: 100%;
@@ -1953,6 +1958,7 @@ ion-icon {
   .footer_content {
     padding: 0px 0px;
   }
+
 }
 @media only screen and (max-width: 325px) {
   .container .nav_top p {
